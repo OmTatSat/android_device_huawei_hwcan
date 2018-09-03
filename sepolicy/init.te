@@ -3,4 +3,4 @@ allow init fingerprint_device:chr_file { open read write ioctl };
 allow init oem_block_device:blk_file write;
 allow init property_socket:sock_file write;
 allow init hwservicemanager:binder { call transfer };
-allow init hal_fingerprint_default_exec:file execute_no_trans;
+#allow init hal_fingerprint_default_exec:file execute_no_trans;
